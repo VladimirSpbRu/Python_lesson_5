@@ -9,7 +9,7 @@ def all_dividers(n):
                 temp_list.append(i)
     return temp_list
 
-# Проверка числа на простоту
+# Вспомогательная функция: проверка числа на простоту
 def simplicity_checking(n):
     if len(all_dividers(n))>2:
         simplicity = 0
